@@ -1,0 +1,192 @@
+@media (max-width: 775px) {
+  .main-head {
+    font-size: 2.5em !important;
+  }
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.head-div {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  min-height: 100vh;
+  background-color: rgba(37, 42, 48, 0.7);
+}
+
+.logo {
+  margin-top: 8vh;
+  height: 70px;
+  width: 70px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgb(37, 42, 48);
+}
+
+.logo-small {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  height: 50px;
+  width: 50px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px rgb(37, 42, 48);
+}
+
+.main-head {
+  margin-top: 8vh;
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.transButton {
+  margin-top: 8vh;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: Transparent;
+  border: solid 2px #fc706f;
+}
+
+.transButton:hover {
+  color: #252a30;
+  background-color: #fc706f;
+}
+
+.transButton-success {
+  margin-top: 8vh;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: Transparent;
+  border: solid 2px white;
+}
+
+.transButton-success:hover {
+  color: #fc706f;
+  background-color: white;
+}
+
+.viewButton {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 25px;
+  color: #252a30;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: Transparent;
+  border: solid 2px #fc706f;
+}
+
+.viewButton:hover, .blackOutlineButton:hover {
+  color: #fc706f;
+  background-color: #252a30;
+  border: solid 2px #252a30;
+}
+
+.blackOutlineButton {
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 25px;
+  color: #252a30;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: Transparent;
+  border: solid 2px #252a30;
+}
+
+.info-scroll {
+  margin-top: 20vh;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.section-head {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+.big-info {
+  font-size: 1.4em;
+  font-weight: 200;
+}
+
+.med-info {
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.small-info {
+  font-weight: 200;
+  color: rgba(255,255,255,0.4);
+}
+
+.mini-head {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.expertise-icon {
+  color: #fc706f;
+}
+
+.caption {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #b2c6cd;
+  letter-spacing: 1px;
+}
+
+.divide {
+  border-top: 1px solid rgba(8, 8, 8, 0.17);
+}
+
+.circle {
+  width:40;
+  line-height: 40px;
+  border-radius:20px;
+  margin: 5px 5px 5px 5px !important;
+  color:#fff;
+  text-align:center;
+  background-color: #222;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.social {
+  color: rgba(255,255,255,0.6)
+}
+
+.circle:hover {
+  background-color: rgba(255,255,255,0.6);
+  color: #222;
+}
+
+.flags {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.flag-icon {
+  width: 30px;
+  height: 30px;
+}
