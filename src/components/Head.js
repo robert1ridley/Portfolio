@@ -27,7 +27,7 @@ export default class Head extends React.Component {
       <div className="head-div" style={styles.head}>
         <div className="overlay">
           <div style={{textAlign: 'center'}} className="container" >
-            <div className="flags">
+            {/* <div className="flags">
               <div className="icon" onClick={this.props.English}>
                 <Image src={UKFlag} className="flag-icon" aria-hidden="true"></Image>
                 <span className="med-info" style={{color: 'white'}}>&nbsp;&nbsp;English</span>
@@ -36,7 +36,7 @@ export default class Head extends React.Component {
                 <Image src={chinaFlag} className="flag-icon" aria-hidden="true"></Image>
                 <span className="med-info" style={{color: 'white'}}>&nbsp;&nbsp;中文</span>
               </div>
-            </div>
+            </div> */}
             <Image src={logo} className="logo" />
             <h1 className="main-head">{content.intro}</h1>
             <button className="transButton" onClick={this.scrollBottom}>{content.workOffer}</button>
